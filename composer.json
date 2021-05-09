@@ -10,8 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    
+    "require": {
+        "php": "^7.3|^8.0",       
+        "laravel/framework": "^8.12",
+        "laravel/ui": "^3.2"
+    },
     "autoload": {
         "psr-4": {
             "Arikun\\Mindash\\": "src/"
